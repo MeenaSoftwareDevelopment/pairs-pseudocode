@@ -72,4 +72,18 @@ for (var i = 0; i < base_card_count; i++) {
     cards.push(new Card(i, base_color))
 }
 
+function shuffle(array) {
+    // Implement a shuffle function.
+}
 
+card.onclick() = function() {
+    // Based on the card ID, change its colour
+    check_cards_matching()
+}
+
+function check_cards_matching() {
+    // If two cards in `cards` are the same ID and have been clicked,
+    // make them disappear (non-visible).
+}
+
+// Oh yeah, this doesn't use React at all. Oops.
